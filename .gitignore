@@ -1,20 +1,19 @@
-# Python
+# Python venvs
 venv/
 .venv/
-__pycache__/
-*.pyc
 
-# Django
-db.sqlite3
-media/
+# Node
+**/node_modules/
+**/dist/
 
-# Node / React
-node_modules/
-dist/
-.build/
+# AI / large binaries (optional but recommended)
+**/*.pt
 
-# Env files
+# Generated / captured images (optional but recommended)
+backend/ai/violations/
+**/*.jpg
+**/*.jpeg
+**/*.png
+
+# Secrets
 .env
-
-# OS junk
-.DS_Store
